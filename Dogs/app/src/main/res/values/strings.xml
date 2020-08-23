@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Dogs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dog_details_fragment">dog details fragment</string>
+    <string name="dog_list_fragment">dog list fragment</string>
 </resources>
