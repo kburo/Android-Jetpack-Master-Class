@@ -1,11 +1,10 @@
 package com.jetpack.dogs.view
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.Navigation
+import androidx.fragment.app.Fragment
 import com.jetpack.dogs.R
 import kotlinx.android.synthetic.main.fragment_detail.*
 
@@ -24,12 +23,8 @@ class DetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        arguments?.let { dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid }
-        dog_Details_Tv.text = dogUuid.toString()
-
-        btn_list.setOnClickListener {
-            val actionLaunchListFragment = DetailFragmentDirections.actionDetailFragmentToListFragment()
-            Navigation.findNavController(it).navigate(actionLaunchListFragment)
+        arguments?.let {
+            dogUuid = DetailFragmentArgs.fromBundle(it).dogUuid
         }
     }
 
