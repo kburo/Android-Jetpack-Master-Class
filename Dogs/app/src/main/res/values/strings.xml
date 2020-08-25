@@ -5,4 +5,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dog_details_fragment">dog details fragment</string>
     <string name="dog_list_fragment">dog list fragment</string>
+    <string name="an_error_occured_whle_loading_data">An error occured whle loading data</string>
+    <string name="life_span">Life Span</string>
+    <string name="dog_name">Dog Name</string>
+    <string name="dog_lifespan">Dog Lifespan</string>
+    <string name="dog_temperamant">Dog Temperamant</string>
+    <string name="dog_purpose">Dog Purpose</string>
 </resources>
